@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/Server.dir/main.c.o -o Server  -Wl,-rpath,/home/breponte/silver-octo-waddle/build/_deps/sdl-build ../../_deps/sdl-build/libSDL3.so.0.2.24 

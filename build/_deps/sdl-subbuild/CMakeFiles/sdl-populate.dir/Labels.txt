@@ -1,0 +1,14 @@
+# Target labels
+ sdl-populate
+# Source files and their labels
+/home/breponte/silver-octo-waddle/build/_deps/sdl-subbuild/CMakeFiles/sdl-populate
+/home/breponte/silver-octo-waddle/build/_deps/sdl-subbuild/CMakeFiles/sdl-populate.rule
+/home/breponte/silver-octo-waddle/build/_deps/sdl-subbuild/CMakeFiles/sdl-populate-complete.rule
+/home/breponte/silver-octo-waddle/build/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-build.rule
+/home/breponte/silver-octo-waddle/build/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-configure.rule
+/home/breponte/silver-octo-waddle/build/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-download.rule
+/home/breponte/silver-octo-waddle/build/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-install.rule
+/home/breponte/silver-octo-waddle/build/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-mkdir.rule
+/home/breponte/silver-octo-waddle/build/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-patch.rule
+/home/breponte/silver-octo-waddle/build/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-test.rule
+/home/breponte/silver-octo-waddle/build/_deps/sdl-subbuild/sdl-populate-prefix/src/sdl-populate-stamp/sdl-populate-update.rule
