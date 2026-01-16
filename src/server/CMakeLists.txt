@@ -1,10 +1,16 @@
-add_executable(Server main.c)
+file(GLOB_RECURSE SERVER_SRC *.c)
 
-target_link_libraries(Server PRIVATE SDL3::SDL3)
+add_executable(server ${SERVER_SRC})
+
+target_include_directories(server PRIVATE
+    ${CMAKE_SOURCE_DIR}/include/server
+)
+
+target_link_libraries(server PRIVATE SDL3::SDL3)
 
 # copy SDL3.dll next to executable
-add_custom_command(TARGET Server POST_BUILD
+add_custom_command(TARGET server POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_if_different
-            $<TARGET_RUNTIME_DLLS:Server> $<TARGET_FILE_DIR:Server>
+            $<TARGET_RUNTIME_DLLS:server> $<TARGET_FILE_DIR:server>
     COMMAND_EXPAND_LISTS
 )
